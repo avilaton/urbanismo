@@ -1,0 +1,4 @@
+AuthName "Directorio privado"
+AuthType Basic
+AuthUserFile /var/www/html/urbanismo/editor/.htpasswd
+require valid-user

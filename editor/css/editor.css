@@ -1,0 +1,75 @@
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+#map {
+	width: 100%; 
+	height: 100%;   
+}
+#login {
+    margin:0;
+}
+
+#tableWrapper {
+	margin-top:20px;
+	height:300px;
+	width:100%;
+	overflow:auto;
+}
+#tagsTable { 
+	display:block; 
+	overflow:auto; 
+	width:100%;
+}
+#tagsTable td {
+	border:none;
+	padding:0px;
+	width:40%;
+	vertical-align:middle;
+}
+#tagsTable td.icon {
+	width:10%;
+}
+#tagsTable textarea {
+	background:transparent;
+	margin:none;
+}
+
+
+
+/*
+Estilos para el panel de edición 
+*/
+.olControlPanel { 
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:  105px;
+	height: 32px;
+	background:rgba(255,0,0,0.5);;
+}
+.olControlPanel div {
+	float:right;
+  width:  24px;
+  height: 22px;
+  margin:5px;
+  /*background-color:white;*/
+}
+.olControlPanel .olControlModifyFeatureItemActive { 
+  background-image: url("img/draw_polygon_on.png");
+}
+.olControlPanel .olControlModifyFeatureItemInactive { 
+  background-image: url("img/draw_polygon_off.png");
+}
+.olControlPanel .olControlSelectFeatureItemActive { 
+  background-image: url("img/pan_on.png");
+}
+.olControlPanel .olControlSelectFeatureItemInactive { 
+  background-image: url("img/pan_off.png");
+}
+.olControlPanel .olControlDrawFeatureItemActive { 
+  background-image: url("img/draw_point_on.png");
+}
+.olControlPanel .olControlDrawFeatureItemInactive { 
+  background-image: url("img/draw_point_off.png");
+}
